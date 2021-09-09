@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Ninja Quiz</title>
+</head>
+<body>
+    <div class='div.intro.py-3.bg-white text-center'>
+        <div clas='container'>
+            <h2 class="text-primary display-3 my-4">Ninja Quiz</h2>
+        </div>
+    </div>
+
+    <div class='result py-4 d-none bg-light text-center'>
+        <div class='container lead'>
+            <p>You are <span class='text-primary display-4 p-3'>0%</span>ninja</p>
+        </div>
+    </div>
+
+    <div class='div py-4 bg-primary'>
+        <div class='container'>
+            <h2 class='my-5 text-white'>On with the questions...</h2>
+
+            <form class='quiz-form text-light'>
+                <div class='my5'>
+                    <p class='lead font-weight-normal'>1. How do you give ninja directions?</p>
+                    <div class='div.form-check my-2 text-white-50'>
+                        <input type="radio" name='q1' value='A' checked>
+                        <label class='form-check-label'>Show them the map</label>                        
+                    </div>
+                    <div class='div.form-check my-2 text-white-50'>
+                        <input type="radio" name='q1' value='B'>
+                        <label class='form-check-label'>Don't worry, ninja will find you</label>                        
+                    </div>
+                </div>
+                <br>
+                <div class='my5'>
+                    <p class='lead font-weight-normal'>2. If a ninja has 3 apples, then he gives one to Mario and one to Yoshiu, how many apples does the ninja have left??</p>
+                    <div class='div.form-check my-2 text-white-50'>
+                        <input type="radio" name='q2' value='A' checked>
+                        <label class='form-check-label'>1</label>                        
+                    </div>
+                    <div class='div.form-check my-2 text-white-50'>
+                        <input type="radio" name='q2' value='B'>
+                        <label class='form-check-label'>3 and 3 dead coapses</label>                        
+                    </div>
+                </div>
+                <br>
+                <div class='my5'>
+                    <p class='lead font-weight-normal'>3. How do you know when you have met a ninja??</p>
+                    <div class='div.form-check my-2 text-white-50'>
+                        <input type="radio" name='q3' value='A' checked>
+                        <label class='form-check-label'>You will recgonize the outfit</label>                        
+                    </div>
+                    <div class='div.form-check my-2 text-white-50'>
+                        <input type="radio" name='q3' value='B'>
+                        <label class='form-check-label'>The grim reaper will tell you</label>                        
+                    </div>
+                </div>
+                <br>
+                <div class='my5'>
+                    <p class='lead font-weight-normal'>4. What is the Ninja favorite array method?</p>
+                    <div class='div.form-check my-2 text-white-50'>
+                        <input type="radio" name='q4' value='A' checked>
+                        <label class='form-check-label'>Slice()</label>                        
+                    </div>
+                    <div class='div.form-check my-2 text-white-50'>
+                        <input type="radio" name='q4' value='B'>
+                        <label class='form-check-label'>forEach()</label>                        
+                    </div>
+                </div>
+                <br>
+                <div class='text-centre'>
+                    <input type="submit" class='btn btn-light'>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>    
+</body>
+</html>
